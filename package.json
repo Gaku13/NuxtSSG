@@ -1,0 +1,35 @@
+{
+    "name": "test_app_name",
+    "version": "1.0.0",
+    "description": "test_description",
+    "author": "test_author",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "post-update": "yarn upgrade --latest"
+    },
+    "dependencies": {
+        "@nuxtjs/google-analytics": "^2.2.0",
+        "@nuxtjs/svg": "^0.1.12",
+        "nuxt": "^2.3.2",
+        "nuxt-agile": "^1.0.1",
+        "nuxt-i18n": "^6.0.0",
+        "swiper": "5.x",
+        "vue-headroom": "^0.10.1",
+        "vue-parallax-js": "^0.2.3",
+        "vue-scrollto": "^2.15.0"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "7.12.17",
+        "@nuxtjs/style-resources": "^0.1.2",
+        "modern-normalize": "^0.5.0",
+        "pug": "^2.0.4",
+        "pug-plain-loader": "^1.0.0",
+        "stylus": "^0.54.5",
+        "stylus-loader": "^3.0.2",
+        "xmldom": "^0.1.27"
+    }
+}
